@@ -92,7 +92,7 @@ const VIDEO_CONFIG = {
     // Configuración de rutas
     paths: {
         // Ruta relativa a los videos desde el HTML
-        videos: '../',  // Los videos están en la carpeta padre
+        videos: 'AI AGENTS CLASE/',  // Los videos están en la carpeta padre
         // También puedes usar rutas absolutas si prefieres
         // videos: 'file:///C:/Users/codex/Documents/AI%20AGENTS%20CLASE/'
     },
