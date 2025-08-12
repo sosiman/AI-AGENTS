@@ -1,0 +1,46 @@
+{
+  "name": "ai-agents-video-gallery",
+  "version": "1.0.0",
+  "description": "Galería interactiva de videos para el curso de AI Agents",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -o",
+    "serve": "python -m http.server 8080",
+    "dev": "npx live-server --port=8080",
+    "build": "echo 'No build process required for static site'",
+    "deploy": "npx surge ."
+  },
+  "keywords": [
+    "video-gallery",
+    "ai-agents",
+    "html5",
+    "css3",
+    "javascript",
+    "responsive",
+    "education",
+    "course",
+    "tutorial"
+  ],
+  "author": "AI Agents Course",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/ai-agents-video-gallery.git"
+  },
+  "homepage": "https://tu-usuario.github.io/ai-agents-video-gallery",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "surge": "^0.23.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
